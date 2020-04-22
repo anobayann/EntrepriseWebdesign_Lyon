@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -771,20 +771,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #A94242;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFF9!important;
+    text-shadow: 2px 0 0 #000000,
+               0 2px 0 #000000,
+               0 -2px 0 #000000,
+               -2px 0 0 #000000,
+               2px 2px 0 #000000,
+               2px -2px 0 #000000,
+               -2px 2px 0 #000000,
+               -2px -2px 0 #000000;
+    
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #A94242;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #862b00!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +806,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FFFFF9!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #862b00!important;
 }
 
 .icon-dark-slate-blue {
@@ -822,7 +831,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1040,3 +1049,47 @@ h4 {
         text-align: center;
     }
 }
+/*css ajoutee*/
+
+.premier_sous-titre{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.commentaire{
+    font-style: italic;
+    font-size: 20px;
+    max-width: 520px;
+    margin: auto;
+}
+.autheur-commentaire{
+    font-size: 15px;
+}
+.deuxieme_sous-titre{
+
+    max-width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+strong{
+    font-weight: inherit;
+}
+/*cacher toogle navigation
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+    
+    
+  }*/
+
