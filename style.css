@@ -1080,6 +1080,15 @@ strong{
     font-weight: inherit;
 }
 
+.nav li:hover{
+
+    transform: scale(1.2);
+    text-decoration: underline;
+    
+}
+.navbar-brand img:hover{
+    transform: scale(1.2);
+}
 /*cacher toogle navigation
 .sr-only {
     position: absolute;
