@@ -958,7 +958,8 @@ h4 {
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
     }
-    .hero {
+    .hero 
+    {
         padding: 50px 0;
     }
     .hero-nav {
