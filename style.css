@@ -1075,13 +1075,11 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.form-group{
-    margin-bottom: 10px;
-}
+
 strong{
     font-weight: inherit;
 }
-
+@media (min-width: 768px){
 .nav li:hover{
 
     transform: scale(1.2);
@@ -1091,6 +1089,8 @@ strong{
 .navbar-brand img:hover{
     transform: scale(1.2);
 }
+}
+
 /*cacher toogle navigation
 .sr-only {
     position: absolute;
