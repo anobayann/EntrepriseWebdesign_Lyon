@@ -1090,7 +1090,13 @@ strong{
     transform: scale(1.2);
 }
 }
-
+@media (max-width: 767px){
+    .row-no-gutters{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
 /*cacher toogle navigation
 .sr-only {
     position: absolute;
